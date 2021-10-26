@@ -84,7 +84,7 @@ public final class ChunkLoader extends JavaPlugin
                         });
                     });
 
-                    player.sendMessage("Removed ALL forced chunk loaders, if any.");
+                    player.sendMessage("Removed ALL force loaded chunks, if any.");
                 })
                 .register();
     }
